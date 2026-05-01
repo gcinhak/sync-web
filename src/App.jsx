@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react';
 import './index.css';
 
+const R2_IMAGE_URL = 'https://pub-2a937530595845e393f8d46bca5912fe.r2.dev/sync.jpg';
+
 /* ── Custom cursor ── */
 function Cursor() {
     const dot = useRef(null);
@@ -65,7 +67,6 @@ function HeroBlobs() {
             preserveAspectRatio="xMidYMid slice"
             xmlns="http://www.w3.org/2000/svg"
         >
-            {/* Bottom-left pink/magenta sweep */}
             <path
                 d="M -80 820 C 40 700 180 750 280 830 C 380 910 440 980 260 980 C 80 980 -160 940 -80 820Z"
                 fill="#FF1EA0"
@@ -76,8 +77,6 @@ function HeroBlobs() {
                 fill="#FF52B8"
                 opacity="0.6"
             />
-
-            {/* Top-left white sweep */}
             <path
                 d="M -100 -30 C 60 50 90 240 -20 350 C -130 460 -220 270 -200 100 C -180 -70 -100 -30 -100 -30Z"
                 fill="#FFFFFF"
@@ -88,25 +87,19 @@ function HeroBlobs() {
                 fill="#F0E8FF"
                 opacity="0.55"
             />
-
-            {/* Right-side magenta blob */}
             <path
                 d="M 1340 350 C 1450 300 1520 430 1490 560 C 1460 690 1360 710 1310 610 C 1260 510 1240 410 1340 350Z"
                 fill="#E020C0"
                 opacity="0.65"
             />
-
-            {/* Floating coral blobs */}
             <ellipse cx="1150" cy="100" rx="70" ry="55" fill="#FF7A90" opacity="0.8" transform="rotate(-20 1150 100)" />
             <path
                 d="M 1100 60 C 1140 20 1200 35 1215 80 C 1230 125 1195 150 1155 138 C 1115 126 1065 100 1100 60Z"
                 fill="#FF9AB0"
                 opacity="0.75"
             />
-
             <ellipse cx="310" cy="210" rx="52" ry="43" fill="#FF85A0" opacity="0.72" transform="rotate(15 310 210)" />
             <ellipse cx="200" cy="320" rx="34" ry="28" fill="#FFB0C0" opacity="0.62" />
-
             <ellipse
                 cx="1300"
                 cy="600"
@@ -118,8 +111,6 @@ function HeroBlobs() {
             />
             <ellipse cx="110" cy="560" rx="40" ry="32" fill="#FF90A8" opacity="0.68" transform="rotate(25 110 560)" />
             <ellipse cx="1360" cy="820" rx="32" ry="25" fill="#FF6088" opacity="0.72" />
-
-            {/* Purple/lavender */}
             <ellipse cx="980" cy="175" rx="44" ry="34" fill="#C87AE8" opacity="0.68" transform="rotate(30 980 175)" />
             <path
                 d="M 360 490 C 395 455 440 475 432 515 C 424 555 378 562 356 535 C 334 508 325 525 360 490Z"
@@ -136,8 +127,6 @@ function HeroBlobs() {
                 transform="rotate(-15 1100 780)"
             />
             <ellipse cx="160" cy="680" rx="36" ry="28" fill="#C090E8" opacity="0.58" />
-
-            {/* Green shoe hero element */}
             <ellipse cx="440" cy="820" rx="110" ry="68" fill="#3DC42A" opacity="0.9" transform="rotate(-12 440 820)" />
             <ellipse cx="442" cy="806" rx="90" ry="50" fill="#5AE040" opacity="0.85" transform="rotate(-12 442 806)" />
             <ellipse cx="448" cy="858" rx="116" ry="28" fill="#FF8C00" opacity="0.95" transform="rotate(-12 448 858)" />
@@ -146,23 +135,16 @@ function HeroBlobs() {
             <path d="M 410 790 C 424 770 438 774 432 786 C 426 798 408 803 410 790Z" fill="#FFFFFF" opacity="0.9" />
             <path d="M 436 783 C 452 763 466 768 460 780 C 454 792 434 797 436 783Z" fill="#FFFFFF" opacity="0.85" />
             <path d="M 487 812 C 500 796 520 802 516 818 C 512 834 492 838 486 824Z" fill="#FFDD00" opacity="0.95" />
-
-            {/* Dot clusters */}
             <circle cx="760" cy="240" r="7" fill="#FF85A0" opacity="0.78" />
             <circle cx="780" cy="258" r="5" fill="#FF85A0" opacity="0.58" />
             <circle cx="745" cy="265" r="4" fill="#FFB0C0" opacity="0.68" />
             <circle cx="765" cy="278" r="3" fill="#FF85A0" opacity="0.48" />
-
             <circle cx="1060" cy="490" r="6" fill="#C87AE8" opacity="0.68" />
             <circle cx="1076" cy="504" r="4" fill="#B870E0" opacity="0.52" />
             <circle cx="1048" cy="512" r="3.5" fill="#C87AE8" opacity="0.62" />
-
             <circle cx="285" cy="648" r="5.5" fill="#FF90A8" opacity="0.62" />
             <circle cx="302" cy="634" r="3.5" fill="#FFB0C0" opacity="0.52" />
-
-            {/* Running figure */}
             <g transform="translate(920, 260) rotate(-5)">
-                {/* Blue hair */}
                 <path
                     d="M 18 -42 C 35 -55 70 -50 80 -20 C 85 -5 78 5 70 8"
                     stroke="#0066FF"
@@ -177,9 +159,7 @@ function HeroBlobs() {
                     fill="none"
                     strokeLinecap="round"
                 />
-                {/* Head */}
                 <circle cx="22" cy="-48" r="18" fill="#F5C5A0" />
-                {/* Sports top */}
                 <path d="M 5 -28 C 5 -28 -8 -5 -6 20 L 38 20 C 40 -5 28 -28 28 -28Z" fill="#22AA22" />
                 <text
                     x="16"
@@ -193,7 +173,6 @@ function HeroBlobs() {
                 >
                     SYNC
                 </text>
-                {/* Arms */}
                 <path
                     d="M 5 -18 C -15 -8 -25 5 -20 18"
                     stroke="#1A1A1A"
@@ -208,7 +187,6 @@ function HeroBlobs() {
                     fill="none"
                     strokeLinecap="round"
                 />
-                {/* Legs */}
                 <path d="M -6 20 C -12 50 -18 80 -20 110 L -6 110 C -2 80 4 50 8 20Z" fill="#1A1A1A" />
                 <path d="M 38 20 C 44 50 46 80 44 110 L 30 110 C 28 80 26 50 22 20Z" fill="#1A1A1A" />
                 <line x1="-6" y1="20" x2="-18" y2="110" stroke="#9932CC" strokeWidth="2.5" />
@@ -229,7 +207,6 @@ function HeroBlobs() {
                 />
                 <ellipse cx="-52" cy="134" rx="14" ry="8" fill="#3DC42A" transform="rotate(-20 -52 134)" />
                 <ellipse cx="33" cy="165" rx="14" ry="8" fill="#3DC42A" transform="rotate(10 33 165)" />
-                {/* Motion lines */}
                 <line
                     x1="-75"
                     y1="60"
@@ -331,11 +308,7 @@ const STATS = [
 ];
 
 const TL = [
-    {
-        date: '2026. 02',
-        title: 'SYNC 창립',
-        desc: '9명의 창립 멤버와 함께 정규 코딩 동아리로 출발했습니다.',
-    },
+    { date: '2026. 02', title: 'SYNC 창립', desc: '9명의 창립 멤버와 함께 정규 코딩 동아리로 출발했습니다.' },
     { date: '2026. 04', title: '첫 웹 서비스 출시', desc: 'MASL 웹 서비스를 출시했습니다.' },
     { date: '2026. 05', title: '체육축제 웹 서비스 출시', desc: '체육축제를 위한 웹 서비스를 출시했습니다.' },
     {
@@ -465,6 +438,12 @@ export default function App() {
                                 ))}
                             </div>
                         </div>
+                    </div>
+
+                    {/* 동아리 활동 사진 */}
+                    <div className="about-photo reveal d2">
+                        <img src={R2_IMAGE_URL} alt="SYNC 동아리 활동 사진" />
+                        <p>함께 코딩하는 SYNC 부원들</p>
                     </div>
                 </div>
             </section>
