@@ -538,7 +538,7 @@ export default function App() {
                 <div className="ring" style={{ width: '1100px', height: '1100px' }} />
                 <div className="recruit-inner">
                     <p className="label-tag reveal" style={{ justifyContent: 'center' }}>
-                        RECRUIT 2025
+                        RECRUIT 2027
                     </p>
                     <h2 className="recruit-title reveal d1">
                         코드로
@@ -569,9 +569,9 @@ export default function App() {
                         </a>
                     </div>
                     <div className="recruit-meta reveal d4">
-                        <span>📅 모집 기간: 2025. 03. 03 ~ 03. 14</span>
-                        <span>📍 본관 3층 컴퓨터실</span>
-                        <span>✉️ sync@school.kr</span>
+                        <span>📅 모집 기간: 2027. 03. 03 ~ 03. 14</span>
+                        <span>📍 신암관 314호 지능형과학실</span>
+                        <span>✉️ inhak@gvcs-mg.org</span>
                     </div>
                 </div>
             </section>
@@ -595,7 +595,7 @@ export default function App() {
                         <a href="#recruit">지원</a>
                     </li>
                 </ul>
-                <p className="footer-copy">© 2025 Sync Coding Club. All rights reserved.</p>
+                <p className="footer-copy">© 2026 Sync Coding Club. All rights reserved.</p>
             </footer>
         </>
     );
