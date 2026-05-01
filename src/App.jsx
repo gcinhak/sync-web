@@ -402,7 +402,7 @@ export default function App() {
                         <br />
                         함께 배우고, 만들고, 성장하는
                         <br />
-                        <strong>문경고 코딩동아리 SYNC</strong>에 오신 것을 환영합니다.
+                        <strong>코딩동아리 SYNC</strong>에 오신 것을 환영합니다.
                     </p>
                     <div className="hero-btns">
                         <a href="#recruit" className="btn-main">
