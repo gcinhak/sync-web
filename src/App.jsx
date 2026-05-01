@@ -394,7 +394,7 @@ export default function App() {
                 <div className="hero-content">
                     <div className="hero-eyebrow">
                         <span className="eyebrow-dot" />
-                        2025 신입 부원 모집 중
+                        2027 신입 부원 모집 중
                     </div>
                     <h1 className="hero-title">SYNC</h1>
                     <p className="hero-sub">
