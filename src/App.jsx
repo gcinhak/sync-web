@@ -365,10 +365,10 @@ export default function App() {
                 <HeroBlobs />
                 <div className="grain" />
                 <div className="hero-content">
-                    <div className="hero-eyebrow">
+                    {/* <div className="hero-eyebrow">
                         <span className="eyebrow-dot" />
                         2027 신입 부원 모집 중
-                    </div>
+                    </div> */}
                     <h1 className="hero-title">SYNC</h1>
                     <p className="hero-sub">
                         코드로 세상과 연결되다.
